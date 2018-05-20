@@ -1,0 +1,32 @@
+body {
+  background-color: #b7dcc7;
+}
+
+header {
+  background-color: white;
+  display: block;
+}
+
+nav {
+  background-color: #31872e;
+  display: block;
+}
+
+section {
+  background-color: orange;
+}
+
+article {
+}
+
+footer {
+  background-color: #edf0f0;
+}
+
+.dropdown-menu {
+  background-color: #31872e;
+}
+
+.dropdown-item:hover {
+  background-color: #70a55d;
+}
