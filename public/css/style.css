@@ -1,26 +1,29 @@
 body {
   background-color: #b7dcc7;
+  display: grid;
 }
 
 header {
   background-color: white;
-  display: block;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  z-index: 1;
 }
 
 nav {
   background-color: #31872e;
-  display: block;
 }
 
 section {
-  background-color: orange;
-}
-
-article {
+  padding-top: 1em;
 }
 
 footer {
-  background-color: #edf0f0;
+  padding-top: 2em;
+  color: #616161;
+  background-color: #212121;
 }
 
 .dropdown-menu {
@@ -29,4 +32,63 @@ footer {
 
 .dropdown-item:hover {
   background-color: #70a55d;
+}
+
+.imagen_lugar {
+  height: auto !important;
+}
+
+.carousel {
+  box-sizing: border-box;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.descripcion {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background-color: #70a55d;
+  color: white;
+}
+
+.mantenedor {
+  text-align: center;
+}
+
+.card {
+  border: 0;
+  margin-top: 0;
+  background-color: #b7dcc7;
+}
+
+.text-headline {
+  font-size: 17px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-size: 1.84rem;
+  font-weight: 400;
+  line-height: 2.46rem;
+}
+
+.logo-ud {
+  display: grid;
+  justify-content: center;
+}
+
+.logo-ud img {
+  justify-items: center;
+  align-items: center;
+}
+
+footer .row-copy: {
+  display: grid;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  align-items: center;
+  justify-items: center;
 }
