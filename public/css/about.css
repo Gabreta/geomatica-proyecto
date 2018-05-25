@@ -1,0 +1,22 @@
+section {
+  padding-top: 4em;
+}
+
+.btn {
+  border-color: #78be65;
+  background-color: #3b8a26;
+}
+
+.btn:hover {
+  background-color: #78be65;
+  border-color: #3b8a26;
+}
+
+.centrar {
+  left: 50%;
+  top: 50%;
+}
+
+.alejar {
+  padding-top: 3em;
+}
